@@ -20,3 +20,7 @@ function prependDriver(name){
   let driversFirst=[name, ...drivers];
   return driversFirst;
 }
+functionRemoveLastDriver(){
+  let driverLast=drivers.slice(0,drivers.length-1);
+  return driverLast;
+}
